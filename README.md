@@ -14,7 +14,7 @@ Repository Structure
     frontend/ - This directory contains the React.js frontend code which loads the YOLOv8 model.
     model_export_tfjs/ - This file holds the scripts used to convert the YOLOv8 best.pt model to ONNX and then to TensorFlow.js.
     results/ - A folder hosting a video demo of the React application running on an iPhone.
-    model-training/ - This directory includes a Jupyter Notebook detailing the model training process carried out in Google Colab.
+    TRAINING_YOLOV8_HOSPITAL_128.ipynb/ - This file includes a Jupyter Notebook detailing the model training process carried out in Google Colab.
 
 Getting Started
 
