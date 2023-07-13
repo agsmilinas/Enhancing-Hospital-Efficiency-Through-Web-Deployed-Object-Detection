@@ -11,9 +11,9 @@ The repository contains frontend resources in React.js that load the YOLOv8 mode
 In addition to the source code, the repository provides a video showcasing the application's running on an iPhone and a comprehensive Jupyter Notebook documenting the training process of the YOLOv8 model, performed in a Google Colab environment.
 Repository Structure
 
-    react-app/ - This directory contains the React.js frontend code which loads the YOLOv8 model.
-    model-conversion/ - This directory holds the scripts used to convert the YOLOv8 best.pt model to ONNX and then to TensorFlow.js.
-    demo-video/ - A folder hosting a video demo of the React application running on an iPhone.
+    frontend/ - This directory contains the React.js frontend code which loads the YOLOv8 model.
+    model_export_tfjs/ - This file holds the scripts used to convert the YOLOv8 best.pt model to ONNX and then to TensorFlow.js.
+    results/ - A folder hosting a video demo of the React application running on an iPhone.
     model-training/ - This directory includes a Jupyter Notebook detailing the model training process carried out in Google Colab.
 
 Getting Started
